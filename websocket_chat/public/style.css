@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fdfdfd;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  padding: 40px 0;
+  color: rgb(8, 7, 7);
+}
+
+#messages {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#messages li {
+  background: #f0f0f0;
+  text-align: left;
+  padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) {
+  background: #b3ffb3;
+}
+form {
+  padding: 3px;
+  position: fixed;
+}
+
+form input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #f0f0f0;
+  background: #05a33a;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+form button:hover {
+  background-color: #3276b1;
+}
